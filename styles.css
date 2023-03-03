@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    border-radius:100px;
+    transition: 0.3s;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    color: #1e1e1e;
+    text-align: center;
+    
+}
+marquee{
+    color:rgb(106, 18, 126) ;
+}
+.image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    transition: 0.3s;
+}
+.buttons{
+     margin: 30px;
+     padding: 20px;
+     transition: 0.3s;
+}
+
+button:hover{
+    margin: 0 8px;
+    background-color:#9966ff ;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0
+    rgba(0,0,0,0.19);
+    transition:  0.3s;
+    width: 110px;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #ccb3ff;
+
+}
+body{
+    background-image:linear-gradient(90deg,#00ffff,#b905fb);
+}
+button{
+    background-color:  #ccb3ff;
+    border-radius:5px ;
+    border-width: 1px ;
+    height: 28px;
+    width: 100px;
+    transition: 0.3s;
+}
+img:hover{
+    transition: 0.3s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0
+    rgba(0,0,0,0.19);
+    transition: ;
+    height: 220px;
+    width: 220px;
+    border-radius: 220px;
+    cursor: grab;
+    opacity: 0.8;
+}
+button:active{
+    transition: 0.3s;
+    opacity: 0.3;
+
+}
